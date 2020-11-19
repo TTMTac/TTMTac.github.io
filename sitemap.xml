@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2020/11/19/vulnhub-breach1-0/</loc>
+    
+    <lastmod>2020-11-19</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://example.com/2020/10/26/vulnhub%20%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F%20%20breach1_0/</loc>
     
     <lastmod>2020-10-26</lastmod>
